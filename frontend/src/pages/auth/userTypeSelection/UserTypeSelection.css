@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F3F4F6;
+    position: relative;
+  }
+  
+  .background-icon {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    opacity: 0.1;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+  }
+  
+  .freight-text {
+    color: #131F86;
+  }
+  
+  .heading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4B5563;
+    margin-bottom: 5px;
+  }
+  
+  .subheading {
+    font-size: 14px;
+    color: #6B7280;
+    margin-bottom: 20px;
+  }
+  
+  .new-user-btn {
+    width: 100%;
+    background-color: #131F86;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+  
+  .separator-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .separator {
+    width: 50px;
+    height: 1px;
+    background-color: #D1D5DB;
+  }
+  
+  .or-text {
+    margin: 0 8px;
+    color: #6B7280;
+    font-size: 14px;
+  }
+  
+  .existing-user-btn {
+    width: 100%;
+    background-color: #F59E0B;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }

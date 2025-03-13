@@ -1,0 +1,155 @@
+.customer-dashboard {
+    font-family: "Arial", sans-serif;
+    background: #f8f9fc;
+    padding: 20px;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #001f7f;
+    padding: 15px;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .dashboard-header h1 {
+    margin: 0;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .customer-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .filter-section {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .filter-section select,
+  .filter-section input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-btn {
+    background: #001f7f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .requests-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .request-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .request-card.pending {
+    border-left: 5px solid #ffc107;
+  }
+  
+  .request-card.confirmed {
+    border-left: 5px solid #28a745;
+    background: #e6f9e6;
+  }
+  
+  .request-card.closed {
+    border-left: 5px solid #dc3545;
+    background: #f8d7da;
+  }
+  
+  .console-id {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .route {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .date,
+  .weight,
+  .price {
+    color: #777;
+  }
+  
+  .status {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+  }
+  
+  .actions {
+    margin-top: 10px;
+  }
+  
+  .update-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .closed-btn {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .load-more {
+    background: #001f7f;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  

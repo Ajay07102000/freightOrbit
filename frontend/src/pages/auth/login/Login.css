@@ -1,0 +1,153 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .login-card {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+  }
+  
+  .login-logo {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .subtext {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .input-group .icon {
+    margin-right: 10px;
+    color: #888;
+  }
+  
+  .input-group input {
+    border: none;
+    background: transparent;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .options a {
+    text-decoration: none;
+    color: #000080;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    background-color: #000080;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .divider {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #888;
+    position: relative;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    height: 1px;
+    background: #ddd;
+    position: absolute;
+    width: 40%;
+    top: 50%;
+  }
+  
+  .divider::before {
+    left: 0;
+  }
+  
+  .divider::after {
+    right: 0;
+  }
+  
+  .google-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .google-icon {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .register-text {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .register-text a {
+    color: #000080;
+    text-decoration: none;
+  }
+  
+  .footer-text {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,68 @@
+/* Global styles for the Home page */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-container h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .home-container p {
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Role buttons container */
+  .role-buttons {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+  }
+  
+  /* Base button styles */
+  .role-button {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Hover effect for buttons */
+  .role-button:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  /* Specific styles for each role button */
+  .role-button.customer {
+    background-color: #4caf50; /* Green */
+  }
+  
+  .role-button.finder {
+    background-color: #2196f3; /* Blue */
+  }
+  
+  .role-button.admin {
+    background-color: #f44336; /* Red */
+  }
+  
+  .role-button.support {
+    background-color: #ff9800; /* Orange */
+  }
+  
+  /* Active state for buttons */
+  .role-button:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+  }
